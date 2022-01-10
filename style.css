@@ -1,0 +1,71 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#form {
+  background-color: #e1e4e4;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.5em;
+  box-shadow: 3px 8px 8px #ff2f97, -1px -1px 5px 5px #ffa600;
+}
+
+.input {
+  padding: 0 1em;
+  height: 40px;
+  width: 220px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  font-size: 1.3rem;
+}
+
+.form--btn {
+  padding: 0.5em 1.5em;
+  border: none;
+  background: #ff5959;
+  color: white;
+  border-radius: 4px;
+  height: 35px;
+  width: 80px;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.form--btn:hover {
+  background: cornflowerblue;
+}
+
+.input.errorr{
+  border:  1px solid red;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
